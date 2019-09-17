@@ -1,0 +1,61 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif
+}
+.welcome{
+    font-size: 4rem;
+}
+.w3-bar,
+h1,
+button {
+  font-family: "Montserrat", sans-serif
+}
+
+.blue{
+    color: #1171ce;
+}
+.get-started{
+    background-color: #1171ce;
+    color: white;
+}
+.get-started button{
+    border-radius: 5px;
+}
+.get-started a{
+    text-decoration: none;
+}
+.favicon img{
+    width: 100%;
+    height: 100%;
+}
+.fa-anchor,
+.fa-coffee {
+  font-size: 200px
+}
+
+header{
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.411), 
+      rgba(4, 58, 128, 0.726)
+    ),
+    /* bottom, image */
+    url(images/slider-bg-01@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+    .welcome{
+        font-size: 3rem;
+    }
+    .w3-xlarge{
+        font-size: 1.375rem;
+    }
+  }
